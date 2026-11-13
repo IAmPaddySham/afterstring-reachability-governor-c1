@@ -1,0 +1,26 @@
+cff-version: 1.2.0
+message: "If you use this work, please cite it as below."
+title: "Afterstring Reachability, cycle 1: the Fail-Close Runtime Governor. A preregistered test whose setup failed before any counted run"
+type: software
+authors:
+  - family-names: Sham
+    given-names: Paddy
+version: 1.0.0
+date-released: 2026-11-13
+repository-code: "https://github.com/IAmPaddySham/afterstring-reachability-governor-c1"
+license: CC-BY-4.0
+abstract: >-
+  A preregistered reachability test of a new implementation of the Fail-Close Runtime
+  Governor, with 90 sealed cases and bars frozen before any data. The counted run never
+  took place: the cases were sealed before the policy and the governed actor existed as
+  data, and the only available sources for the Governor's deny response and transition
+  value were the graded expected outcomes, which would have made it pass by construction.
+  No label was printed. The Governor code is described but not included: it was built and
+  unit-tested but never run on the sealed cases, and will be released with a later cycle.
+  Writing and records are CC BY 4.0 (see NOTICE).
+keywords:
+  - reachability
+  - runtime governor
+  - fail-closed
+  - preregistration
+  - evaluation design
